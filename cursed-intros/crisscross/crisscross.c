@@ -52,7 +52,7 @@ void build_x_logo() {
                 mvaddch(j,max_x-i, ACS_BLOCK);
         }
         refresh();
-        usleep(5000);
+        usleep(800000/max_x);
     }
     refresh();
 
