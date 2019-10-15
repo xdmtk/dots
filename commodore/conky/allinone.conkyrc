@@ -1,0 +1,106 @@
+# Most of this should work for anyone, a few things to look out for:
+# 1: The tempurature option may output two options, just check "sensors" output and adjust the grep accordingly.
+# 2: The Music commands are based on outputs of "mocp -i", so change as neccisary according to the info output of your music player. Note: The first output for the music player shows the path minus the /home/jack/ prefix. You should adjust accordingly or omit it since it only displays very short paths properly.
+# 3: Some of the disk stuff should be adjusted depending on how many partitions you have as well as their names.
+# 4: If you don't have the profont font, adjust accordingly.
+##############################################
+#  Settings
+##############################################
+background yes
+use_xft yes
+xftfont Envy Code R:size=10
+xftalpha 1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent yes
+own_window_type override 
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 200 200
+maximum_width 280
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color dc8595
+default_shade_color 000000
+default_outline_color d9d7d6
+alignment top_left
+gap_x 30
+gap_y 50
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale no
+update_interval .6
+
+color1 900c3f
+color3 ED553B
+color2 c70039
+color4 ff5733
+color5 ffc300
+
+
+##############################################
+#  Output
+##############################################
+TEXT
+${color #d1d1d1}SYSTEM INFORMATION $hr
+${color1}Host:$alignr$nodename
+${color2}Kernel:$alignr$kernel
+${color3}Uptime:$alignr$uptime
+${color4}RAM:$alignr$memperc% / $mem
+${color5}Swap usage:$alignr$swap/ $swapmax
+
+${color #d1d1d1}NETWORK $hr
+${color1}Gateway:$alignr$gw_ip
+${color2}Local IP: $alignr ${addr wlan0}
+${color3}External IP: $alignr ${exec curl ifconfig.me}
+${color4}SSID: $alignr ${wireless_essid wlp2s0}
+${color5}Connection Quality: $alignr ${wireless_link_qual wlp2s0}%
+
+${color #d1d1d1}CPU $hr${color3}
+${color4}CPU Frequency:$alignr$freq_g
+${color4}CPU Usage:$alignr${cpu cpu0}%
+${color4}$cpugraph
+${color4}$cpubar
+
+${color #d1d1d1}HDD $hr${color4}
+${color3}/$alignr${fs_used /}/${fs_size /}
+${color3}$fs_bar
+
+${color3}/home/xdmtk$alignr${fs_used /home/xdmtk}/${fs_size /home/xdmtk}
+${color3}${fs_bar /home/xdmtk}
+${color3}Temperature:$alignr${execi 2 sensors | grep temp2 | cut -c 15-19 | tail -1}
+#${execigraph 2 -t sensors | grep temp2 | cut -c 15-16 | tail -1}
+
+${color #d1d1d1}MEMORY & I/O $hr${color3}
+${color4}Memory: $alignr$mem / $memfree
+${color4}$memgraph
+${color4}Disk I/O:$alignr$diskio
+${color4}$diskiograph
+
+#${color #d1d1d1}MUSIC $hr${color2}
+#${color1}${exec mocp -i | grep File | cut -c 24-150}
+#${color2}Status:${alignr}${exec mocp -i | grep State | cut -c 8-30}
+#${color3}Song:${alignr}${exec mocp -i | grep SongTitle | cut -c 12-100}
+#${color4}Time:$alignr${exec mocp -i | grep CurrentTime | cut -c 14-30}/${exec mocp -i | grep TotalTime | cut -c 12-30}
+#${color5}Artist:$alignr${exec mocp -i | grep Artist | cut -c 9-30}
+${color #d1d1d1}TOP CPU$hr${color1}
+${color2}${top name 1}$alignr${top cpu 1}%
+${color3}${top name 2}$alignr${top cpu 2}%
+${color4}${top name 3}$alignr${top cpu 3}%
+${color5}${top name 4}$alignr${top cpu 4}%
+
+${color #d1d1d1}TOP I/O$hr${color1}
+${color2}${top_io name 1}$alignr${top_io io_perc 1}%
+${color3}${top_io name 2}$alignr${top_io io_perc 2}%
+${color4}${top_io name 3}$alignr${top_io io_perc 3}%
+${color5}${top_io name 4}$alignr${top_io io_perc 4}%
+
+${color #d1d1d1}TOP MEM$hr${color1}
+${color2}${top_mem name 1}$alignr${top_mem mem 1}%
+${color3}${top_mem name 2}$alignr${top_mem mem 2}%
+${color4}${top_mem name 3}$alignr${top_mem mem 3}%
+${color5}${top_mem name 4}$alignr${top_mem mem 4}%
