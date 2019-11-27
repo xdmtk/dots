@@ -1,0 +1,35 @@
+# i3 THEME SECTION START 
+#
+#
+default_orientation horizontal
+
+
+#for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border normal
+gaps inner 13
+gaps outer 8
+client.unfocused          #0e0800 #0e0800 #0e0800 #0e0800
+client.focused_inactive          #0e0800 #0e0800 #0e0800 #0e0800
+client.focused          #dbdbdb #dbdbdb #dbdbdb #dbdbdb
+
+
+
+
+
+bar {
+    #position top
+    #status_command i3status -c /home/xdmtk/.config/i3/status
+    status_command /home/xdmtk/.config/i3/scripts/status.sh
+    colors {
+        background #0e0800
+        statusline #eeeeee
+        #               border  bckgrnd  text 
+        active_workspace #ffc235 #ffc235 #ffc235
+        focused_workspace #0e0800 #ffc235 #0e0800
+    }
+}
+
+
+#
+#
+# i3 THEME SECTION END
