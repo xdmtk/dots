@@ -1,6 +1,8 @@
 ### dots
 My collection of dot files  - Packaged with [i3-theme-manager](https://github.com/xdmtk/i3-theme-manager)
 
+##### space-glava 
+![](https://raw.githubusercontent.com/xdmtk/dots/master/space-glava/preview.png)
 
 ##### orange 
 ![](https://raw.githubusercontent.com/xdmtk/dots/master/orange/orange.png)
