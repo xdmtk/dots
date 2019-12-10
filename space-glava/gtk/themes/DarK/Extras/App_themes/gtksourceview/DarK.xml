@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="DarK" _name="DarK" version="1.0">
+  <author>SSF</author>
+  <_description>dark theme</_description>
+
+  <!-- Colors -->
+  <color name="yellow1"               value="#bba028"/>
+  <color name="orange1"               value="#bb5a28"/>
+  <color name="orange2"               value="#d6952e"/>
+  <color name="pink1"                 value="#bb28b4"/>
+  <color name="purple1"               value="#7c28bb"/>
+  <color name="selection_bg"          value="#1a1919"/>
+  <color name="blue1"                 value="#287fbb"/>
+  <color name="blue2"                 value="#239cdc"/>
+  <color name="grey1"                 value="#5c5c5c"/>
+  <color name="normal_bg"             value="#323131"/>
+  <color name="darker"                value="#2e2d2d"/>
+  <color name="normal_fg"             value="#f1f1f1"/>
+  <color name="grey5"                 value="#eeeeee"/>
+  <color name="grey4"                 value="#333333"/>
+  <color name="green1"                value="#5bbb28"/>
+  <color name="green2"                value="#28bb89"/>
+  <color name="grey2"                 value="#cccccc"/>
+  <color name="red1"                  value="#bb283c"/>
+  <color name="grey3"                 value="#777777"/>
+  <color name="blue3"                 value="#4f94cd"/>
+  <color name="grey6"                 value="#262525"/>
+
+  <!-- https://github.com/GNOME/gtksourceview/tree/master/data/language-specs -->
+
+  <!-- Global Settings -->
+
+  <style name="text"                        foreground="normal_fg" background="normal_bg"/>
+  <style name="selection"                   foreground="blue1" background="selection_bg"/>
+  <style name="cursor"                      foreground="normal_fg"/>
+  <style name="current-line"                background="grey6"/>
+  <style name="line-numbers"                foreground="blue2" background="darker"/>
+  <style name="draw-spaces"                 foreground="grey3"/>
+  
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               background="blue3"/>
+  <style name="bracket-mismatch"            background="red1" bold="true"/>
+  
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="normal_fg" background="green2"/>
+
+  <!-- Bookmarks FIXME -->
+  <style name="bookmark"                    background="normal_fg"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="grey1" italic="true"/>
+  <style name="def:shebang"                 foreground="grey1" italic="true"/>
+  <style name="def:doc-comment-element"     bold="true"/>
+
+  <!-- Constants and Variables-->
+  <style name="def:constant"                foreground="yellow1"/>
+  <style name="def:string"                  foreground="green1"/>
+  <style name="def:special-char"            foreground="grey2"/>
+  <style name="def:special-constant"        foreground="pink1" bold="true"/>
+  <style name="def:number"                  foreground="pink1"/>
+  <style name="def:floating-point"          foreground="pink1"/>
+  <style name="def:keyword"                 foreground="orange1" bold="true"/>
+  <style name="def:builtin"                 foreground="orange1" bold="true"/>
+  <style name="def:variable"                foreground="grey2"/>
+  
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="grey2"/>
+  <style name="def:function"                use-style="def:identifier"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="orange1"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="blue1"/>
+  
+  <!-- Others -->
+  <style name="def:error"                   foreground="normal_fg" background="red1" bold="true"/>
+  <style name="def:note"                    foreground="purple1" bold="true"/>
+  <style name="def:net-address-in-comment"  foreground="blue1" italic="false" underline="true"/>
+  <style name="def:preprocessor"            foreground="grey2"/>
+  <style name="def:header"                  foreground="blue3" bold="true"/>
+
+  <!-- Unknown? -->
+  <style name="def:specials"                foreground="normal_fg" background="purple1"/>
+  <style name="def:boolean"                 foreground="pink1"/>
+
+  <!-- C Styles -->
+  <style name="c:preprocessor"              foreground="blue1" bold="true"/>
+  <style name="c:included-file"             foreground="green1"/>
+  <style name="c:common-defines"            foreground="grey1" bold="true"/>
+
+  <!-- Diff Styles -->
+  <style name="diff:ignore"                 foreground="grey3"/>
+  <style name="diff:added-line"             foreground="yellow1"/>
+  <style name="diff:removed-line"           foreground="green1"/>
+  <style name="diff:changed-line"           foreground="orange1"/>
+  <style name="diff:diff-file"              foreground="grey1" bold="true"/>
+  <style name="diff:location"               foreground="grey1"/>
+  <style name="diff:special-case"           foreground="pink1" bold="true"/>
+
+  <!-- Ruby Styles -->
+  <style name="ruby:module-handler"         foreground="blue1"/>
+  <style name="ruby:symbol"                 foreground="pink1"/>
+  <style name="ruby:regex"                  foreground="blue1"/>
+
+  <!-- SH Styles -->
+  <style name="sh:function"                 foreground="purple1"/>
+  <style name="sh:variable"                 foreground="pink1"/>
+  <style name="sh:variable-definition"      foreground="green2"/>
+  <style name="sh:dollar"                   foreground="pink1" bold="true"/>
+
+  <!-- XML Styles -->
+  <style name="xml:attribute-name"          foreground="grey2"/>
+  <style name="xml:element-name"            foreground="blue1"/>
+  <style name="xml:entity"                  foreground="grey5"/>
+  <style name="xml:processing-instruction"  bold="true"/>
+ 
+  <!-- Changelog Styles -->
+  <style name="changelog:email"             foreground="red1"/>
+
+  <!-- Markdown Styles -->
+  <style name="markdown:code"               foreground="pink1"/>
+  <style name="markdown:code-block"         foreground="pink1"/>
+  <style name="markdown:horizontal-rule"    foreground="green1"/>
+  <style name="markdown:list"               foreground="green2"/>
+
+</style-scheme>

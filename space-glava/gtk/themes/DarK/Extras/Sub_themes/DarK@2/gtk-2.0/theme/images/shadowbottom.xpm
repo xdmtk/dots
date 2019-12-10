@@ -1,0 +1,12 @@
+/* XPM */
+static char *shadowbottom[] = {
+/* columns rows colors chars-per-pixel */
+"2 4 2 1 ",
+"  c #000000",
+". c None",
+/* pixels */
+"..",
+"..",
+"  ",
+"  "
+};

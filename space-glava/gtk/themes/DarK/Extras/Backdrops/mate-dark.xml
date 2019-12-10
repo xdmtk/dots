@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+	<wallpaper deleted="false">
+		<name>DarK</name>
+		<filename>__PREFIX__/share/backgrounds/mate/DarK/DarK_1.svg</filename>
+		<options>centered</options>
+        <shade_type>solid</shade_type>
+		<pcolor>#1F1F1F</pcolor>
+		<artist>ssf</artist>
+	</wallpaper>
+	<wallpaper deleted="false">
+		<name>DarK Tile 1</name>
+		<filename>__PREFIX__/share/backgrounds/mate/DarK/DarK_tile1.svg</filename>
+		<options>wallpaper</options>
+        <shade_type>vertical-gradient</shade_type>
+		<pcolor>#343434</pcolor>
+		<scolor>#474747</scolor>
+		<artist>ssf</artist>
+	</wallpaper>
+	<wallpaper deleted="false">
+		<name>DarK Tile 2</name>
+		<filename>__PREFIX__/share/backgrounds/mate/DarK/DarK_tile2.svg</filename>
+        <shade_type>solid</shade_type>
+		<pcolor>#313131</pcolor>
+		<options>wallpaper</options>
+		<artist>ssf</artist>
+	</wallpaper>
+	<wallpaper deleted="false">
+		<name>DarK Tile 3</name>
+		<filename>__PREFIX__/share/backgrounds/mate/DarK/DarK_tile3.png</filename>
+        <shade_type>solid</shade_type>
+		<pcolor>#3C3C3C</pcolor>
+		<options>wallpaper</options>
+		<artist>ssf</artist>
+	</wallpaper>
+	<wallpaper deleted="false">
+		<name>DarK Tile 4</name>
+		<filename>__PREFIX__/share/backgrounds/mate/DarK/DarK_tile4.png</filename>
+        <shade_type>solid</shade_type>
+		<pcolor>#141414</pcolor>
+		<options>wallpaper</options>
+		<artist>ssf</artist>
+	</wallpaper>
+    	<wallpaper deleted="false">
+		<name>DarK Tile 5</name>
+		<filename>__PREFIX__/share/backgrounds/mate/DarK/DarK_tile5.png</filename>
+        <shade_type>solid</shade_type>
+		<pcolor>#5A5A5A</pcolor>
+		<options>wallpaper</options>
+		<artist>ssf</artist>
+	</wallpaper>
+</wallpapers>

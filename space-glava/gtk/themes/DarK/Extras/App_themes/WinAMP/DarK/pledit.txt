@@ -1,0 +1,7 @@
+[Text]
+Normal=#f1f2f2
+Current=#7eae55
+Selected=#ff00ff
+NormalBG=#323131
+SelectedBG=#3c3b3b
+Font=Monospace

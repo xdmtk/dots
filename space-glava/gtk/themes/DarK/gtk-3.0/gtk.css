@@ -1,0 +1,6 @@
+@define-color selected_bg_color #7eae55;
+@define-color selected_fg_color #f2f1f1;
+@import url("resource:///org/gnome/gtk-main.css");
+/*@import url("gtk-main.css");*/
+@import url("settings.css");
+/*@import url("boldmenu.css");*/

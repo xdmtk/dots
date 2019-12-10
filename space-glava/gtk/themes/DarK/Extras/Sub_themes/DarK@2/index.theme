@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=DarK@2
+Comment=DarK and any color you want!
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+MetacityTheme=DarK@2
+GtkTheme=DarK@2
+IconTheme=DarK
+CursorTheme=DMZ-White
+NotificationTheme=coco

@@ -1,0 +1,30 @@
+<color_scheme name="DarK" format="2.1">
+    <window type="key-popup">
+        <color element="border" rgb="#000000" opacity="1.0"/>
+	<color element="background" rgb="#383737" opacity="1.0"/>
+    </window>
+    <layer> 
+	<color element="background" rgb="#424141" opacity="1.0"/>
+    </layer>
+    <key_group>
+        <color element="fill"   rgb="#e5d8b2" opacity="1.0" prelight="true"/>
+        <color element="fill"   rgb="#7eae55" opacity="1.0" pressed="true"/>
+        <color element="fill"   rgb="#7eae55" opacity="1.0" scanned="true"/>
+        <color element="fill"   rgb="#7eae55" opacity="1.0" active="true"/>
+        <color element="fill"   rgb="#BB2847" opacity="1.0" locked="true"/>
+        <color element="fill"   rgb="#313131" opacity="1.0"/>
+        <color element="stroke" rgb="#000000" opacity="1.0" active="true"/>
+        <color element="stroke" rgb="#000000" opacity="1.0" locked="true"/>
+        <color element="stroke" rgb="#000000" opacity="1.0" scanned="true"/>
+        <color element="stroke" rgb="#000000" opacity="1.0" pressed="true"/>
+        <color element="stroke" rgb="#000000" opacity="1.0" prelight="true"/>
+        <color element="stroke" rgb="#000000" opacity="1.0"/>
+        <color element="label"  rgb="#f1f2f2" opacity="1.0" active="true"/>
+        <color element="label"  rgb="#f1f2f2" opacity="1.0" locked="true"/>
+        <color element="label"  rgb="#f1f2f2" opacity="1.0" scanned="true"/>
+        <color element="label"  rgb="#f1f2f2" opacity="1.0" pressed="true"/>
+        <color element="label"  rgb="#f1f2f2" opacity="1.0" prelight="true"/>
+        <color element="label"  rgb="#f1f2f2" opacity="1.0"/>
+        <color element="dwell-progress" rgb="#7eae55" opacity="1.0"/>
+    </key_group>
+</color_scheme>

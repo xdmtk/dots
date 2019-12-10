@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "scrollbars.css" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "DarK-scrollbars",
+   "icons": {
+      "16": "16.png",
+      "22": "22.png",
+      "24": "24.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "manifest_version": 2,
+   "name": "DarK-scrollbars",
+   "version": "1.0"
+}

@@ -1,0 +1,9 @@
+/* XPM */
+static char *bg[] = {
+/* columns rows colors chars-per-pixel */
+"2 2 1 1 ",
+"  c #424141",
+/* pixels */
+"  ",
+"  "
+};

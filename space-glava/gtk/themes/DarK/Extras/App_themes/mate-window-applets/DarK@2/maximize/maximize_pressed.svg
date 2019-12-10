@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36" height="36" version="1.1" viewBox="0 0 4.7625 4.7625" xmlns="http://www.w3.org/2000/svg">
+<rect x=".79375" y=".79375" width="3.175" height="3.175" style="fill:#28ca41;paint-order:markers fill stroke"/>
+<g transform="translate(-.52916 -291.71)">
+<path transform="matrix(.26458 0 0 .26458 0 291.18)" d="m4 4v14h14v-14zm1 1h12v12h-12z" style="fill:#070707;paint-order:markers fill stroke"/>
+<path transform="matrix(.26458 0 0 .26458 .52916 291.71)" d="m8 5v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2z" style="opacity:.4;stroke-width:3.7795"/>
+</g>
+</svg>

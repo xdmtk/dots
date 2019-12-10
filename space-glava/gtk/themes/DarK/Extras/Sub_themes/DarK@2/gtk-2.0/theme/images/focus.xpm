@@ -1,0 +1,14 @@
+/* XPM */
+static char *focus[] = {
+/* columns rows colors chars-per-pixel */
+"6 6 2 1 ",
+"  c #7EAE55",
+". c None",
+/* pixels */
+"      ",
+"      ",
+"  ..  ",
+"  ..  ",
+"      ",
+"      "
+};

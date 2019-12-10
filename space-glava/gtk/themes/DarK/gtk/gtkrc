@@ -1,0 +1,35 @@
+style "font" {
+#needs: xfonts-base
+fontset="-schumacher-clean-medium-r-normal-*-12-*-*-*-c-*-iso8859-1"} 
+widget_class "*" style "font"
+
+#style "font" { 
+#fontset="-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1"} 
+#widget_class "*" style "font"
+
+#style "fontbold" { 
+#fontset="-misc-fixed-bold-r-normal--0-0-75-75-c-0-iso8859-1"} 
+#widget_class "*GtkMenu*" style "fontbold"
+
+style"gtkwidget"{
+fg[NORMAL]="#f1f2f2"
+fg[PRELIGHT]="#f1f2f2"
+fg[SELECTED]="#f2f1f1"
+fg[ACTIVE]="#f2f1f1"
+fg[INSENSITIVE]="#656666"
+bg[NORMAL]="#424141"
+bg[PRELIGHT]="#424141"
+bg[SELECTED]="#7eae55"
+bg[ACTIVE]="#7eae55"
+bg[INSENSITIVE]="#424141"
+base[NORMAL]="#323131"
+base[PRELIGHT]="#424141"
+base[SELECTED]="#7eae55"
+base[ACTIVE]="#7eae55"
+base[INSENSITIVE]="#323131"
+text[NORMAL]="#f1f2f2"
+text[PRELIGHT]="#f1f2f2"
+text[SELECTED]="#f2f1f1"
+text[ACTIVE]="#f2f1f1"
+text[INSENSITIVE]="#656666"}
+class"GtkWidget"style"gtkwidget"

@@ -1,0 +1,11 @@
+[Scheme]
+Name=DarK
+ColorBackground=#3b3b3a3a3a3a
+ColorForeground=#f1f1f2f2f2f2
+TabActivityColor=#f1f1f2f2f2f2
+ColorPalette=rgb(20,20,20);rgb(128,36,60);rgb(67,128,26);rgb(159,137,30);rgb(35,93,154);rgb(95,32,128);rgb(41,135,152);rgb(92,92,92);rgb(50,49,49);rgb(187,40,71);rgb(91,187,40);rgb(187,162,40);rgb(40,111,187);rgb(144,40,187);rgb(40,149,187);rgb(255,255,255)
+ColorCursorUseDefault=FALSE
+ColorCursor=#f1f1f2f2f2f2
+MiscAlwaysShowTabs=FALSE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+MiscMenubarDefault=TRUE

@@ -1,0 +1,25 @@
+[Icon Theme]
+Name = DarK
+Comment = DarK theme for WindowButtons
+Directories=close,minimize,maximize
+
+[close]
+Context=close
+Size=18
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+[minimize]
+Context=minimize
+Size=18
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+[maximize]
+Context=maximize
+Size=18
+MinSize=8
+MaxSize=512
+Type=Scalable

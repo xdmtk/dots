@@ -1,0 +1,19 @@
+/* XPM */
+static char *entryfocus[] = {
+/* columns rows colors chars-per-pixel */
+"10 10 3 1 ",
+"  c #000000",
+". c #7EAE55",
+"X c None",
+/* pixels */
+"          ",
+"          ",
+"  ......  ",
+"  ......  ",
+"  ..XX..  ",
+"  ..XX..  ",
+"  ......  ",
+"  ......  ",
+"          ",
+"          "
+};

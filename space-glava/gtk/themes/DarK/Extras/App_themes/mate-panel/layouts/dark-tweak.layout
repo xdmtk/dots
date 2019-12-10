@@ -1,0 +1,87 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=27
+
+[Toplevel left]
+orientation=left
+expand=true
+size=54
+
+[Object windowbuttonsapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=WindowButtonsAppletFactory::WindowButtonsApplet
+object-type=applet
+
+[Object menu]
+locked=false
+position=0
+panel-right-stick=false
+toplevel-id=left
+object-type=menu
+
+[Object appmenuapplet]
+locked=true
+position=77
+panel-right-stick=false
+toplevel-id=top
+applet-iid=AppmenuAppletFactory::AppmenuApplet
+object-type=applet
+
+[Object dockapplet]
+locked=true
+position=49
+panel-right-stick=false
+toplevel-id=left
+applet-iid=DockAppletFactory::DockApplet
+object-type=applet
+
+[Object shutdown]
+action-type=shutdown
+locked=true
+position=2492
+panel-right-stick=false
+toplevel-id=top
+object-type=action
+
+[Object notificationarea]
+locked=true
+position=2373
+panel-right-stick=false
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object indicatorappletcomplete]
+locked=true
+position=2290
+panel-right-stick=false
+toplevel-id=top
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+object-type=applet
+
+[Object separator]
+locked=true
+position=2459
+panel-right-stick=false
+toplevel-id=top
+object-type=separator
+
+[Object clockapplet]
+locked=true
+position=941
+panel-right-stick=false
+toplevel-id=left
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object separator]
+locked=true
+position=67
+panel-right-stick=false
+toplevel-id=top
+object-type=separator
+

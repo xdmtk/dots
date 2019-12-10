@@ -1,0 +1,11 @@
+<effects>
+	<object id="#000000-white" class="ClutterDesaturateEffect">
+		<property name="factor">0.5</property>
+	</object>
+		<object id="normal" class="ClutterDesaturateEffect">
+		<property name="factor">0.0</property>
+	</object>
+	<object id="colorize" class="ClutterColorizeEffect">
+		<property name="tint">#7eae55</property>
+	</object>
+</effects>

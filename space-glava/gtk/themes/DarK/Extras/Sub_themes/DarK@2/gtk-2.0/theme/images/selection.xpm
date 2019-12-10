@@ -1,0 +1,9 @@
+/* XPM */
+static char *selection[] = {
+/* columns rows colors chars-per-pixel */
+"2 2 1 1 ",
+"  c #7EAE55",
+/* pixels */
+"  ",
+"  "
+};
