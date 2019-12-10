@@ -1,5 +1,5 @@
 ### dots
-My collection of dot files
+My collection of dot files  - Packaged with [i3-theme-manager](https://github.com/xdmtk/i3-theme-manager)
 
 
 ##### orange 
