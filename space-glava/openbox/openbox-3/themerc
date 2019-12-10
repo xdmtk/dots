@@ -1,0 +1,98 @@
+# Name: DarK
+# Author: sxsixfive <sixsixfive.deviantart.com>
+
+# Menu settings
+menu.title.bg: Flat Solid
+menu.title.bg.color: rgb:3b/3a/3a
+menu.title.text.color: #f1f2f2
+menu.title.text.justify: center
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: rgb:42/41/41
+menu.items.text.color: rgb:f1/f2/f2
+menu.items.disabled.text.color: rgb:76/77/77
+
+menu.items.active.bg: Flat Solid
+menu.items.active.bg.color: #7eae55
+menu.items.active.text.color: #f1f2f2
+menu.separator.color: rgb:00/00/00
+
+# Window settings (focused)
+window.active.title.bg: Flat Solid
+window.active.title.bg.color: rgb:3b/3a/3a
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: rgb:f1/f2/f2
+
+window.active.handle.bg: Flat Solid
+window.active.handle.bg.color: rgb:3b/3a/3a
+
+window.active.grip.bg: Flat Solid
+window.active.grip.bg.color: rgb:3b/3a/3a
+
+window.active.button.*.bg: Flat Solid Border
+window.active.button.*.bg.border.color: rgb:00/00/00
+window.active.button.*.bg.color: rgb:44/43/43
+window.active.button.*.unpressed.image.color: rgb:44/43/43
+window.active.button.*.hover.image.color: rgb:44/43/43
+window.active.button.*.pressed.image.color: rgb:18/16/16
+window.active.button.*.toggled.image.color: rgb:18/16/16
+window.active.button.close.*.bg.color: rgb:FF/61/58
+window.active.button.close.unpressed.image.color: rgb:FF/61/58
+window.active.button.close.hover.image.color: rgb:FF/61/58
+window.active.button.close.pressed.image.color: rgb:8c/34/2f
+window.active.button.close.toggled.image.color: rgb:8c/34/2f
+window.active.button.iconify.*.bg.color: rgb:FF/BD/30
+window.active.button.iconify.unpressed.image.color: rgb:FF/BD/30
+window.active.button.iconify.hover.image.color: rgb:FF/BD/30
+window.active.button.iconify.pressed.image.color: rgb:aa/7e/20
+window.active.button.iconify.toggled.image.color: rgb:aa/7e/20
+window.active.button.max.*.bg.color: rgb:28/CA/41
+window.active.button.max.unpressed.image.color: rgb:28/CA/41
+window.active.button.max.hover.image.color: rgb:28/CA/41
+window.active.button.max.pressed.image.color: rgb:19/7d/28
+window.active.button.max.toggled.image.color: rgb:19/7d/28
+
+window.active.border.color: rgb:00/00/00
+window.active.title.separator.color: rgb:00/00/00
+window.active.client.color: rgb:42/41/41
+
+# Window settings (unfocused)
+window.inactive.title.bg: Flat Solid
+window.inactive.title.bg.color: rgb:3b/3a/3a
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: rgb:76/77/77
+
+window.inactive.handle.bg: Flat Solid
+window.inactive.handle.bg.color: rgb:3b/3a/3a
+
+window.inactive.grip.bg: Flat Solid
+window.inactive.grip.bg.color: rgb:3b/3a/3a
+
+window.inactive.button.*.bg: Flat Solid Border
+window.inactive.button.*.bg.border.color: rgb:00/00/00
+window.inactive.button.*.bg.color: rgb:31/30/30
+window.inactive.button.*.unpressed.image.color: rgb:31/30/30
+window.inactive.button.*.hover.image.color: rgb:31/30/30
+window.inactive.button.*.pressed.image.color: rgb:18/16/16
+window.inactive.button.*.toggled.image.color: rgb:18/16/16
+
+window.inactive.border.color: rgb:00/00/00
+window.inactive.title.separator.color: rgb:00/00/00
+window.inactive.client.color: rgb:42/41/41
+
+### Everything else
+border.width: 1
+padding.width: 1
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: Center
+menu.overlap: 0
+
+### Fonts
+window.active.label.text.font:Sans:Bold:pixelsize=12:shadow=n:shadowtint=0:shadowoffset=0
+window.inactive.label.text.font:Sans:Bold:pixelsize=12:shadow=n:shadowtint=0:shadowoffset=0
+menu.title.text.font=Sans:pixelsize=11:shadow=n:shadowtint=0:shadowoffset=0
+osd.label.text.font=Sans:pixelsize=11:shadow=n:shadowtint=0:shadowoffset=0
+menu.items.font=Sans:pixelsize=11:shadow=n:shadowtint=0:shadowoffset=0
